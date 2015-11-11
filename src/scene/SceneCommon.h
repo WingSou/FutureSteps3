@@ -15,3 +15,12 @@ enum ManagerScene
 	GAME_MAIN,
 	RESULT
 };
+
+class SceneCommon
+{
+public:
+	
+	Vec2f pos;
+	Vec2f size;
+
+};

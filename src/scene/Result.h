@@ -1,7 +1,7 @@
 #pragma once
 #include "SceneCommon.h"
 
-class Result
+class Result : public SceneCommon
 {
 public:
 
@@ -10,7 +10,8 @@ public:
 
 	void UpDate();
 	void Draw();
-	void Reset();
+	void SetUp();
+
 	bool result_end;
 
 private:

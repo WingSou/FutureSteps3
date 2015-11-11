@@ -1,7 +1,7 @@
 #pragma once
 #include "SceneCommon.h"
 
-class Game
+class Game : public SceneCommon
 {
 public:
 	
@@ -10,7 +10,8 @@ public:
 
 	void UpDate();
 	void Draw();
-	void Reset();
+	void SetUP();
+
 	bool game_end;
 
 private:

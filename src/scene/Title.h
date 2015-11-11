@@ -1,7 +1,7 @@
 #pragma once
 #include "SceneCommon.h"
 
-class Title 
+class Title : public SceneCommon
 {
 public:
 
@@ -10,14 +10,16 @@ public:
 
 	void UpDate();
 	void Draw();
-	void Reset();
+	void SetUp();
 
 	bool title_end;
 
 private:
 
+	Font font;
 	Texture title_logo;
 	Media title_bgm;
 	ProcessScene scene_switch;
 
+	Vec2f clip_size;
 };
