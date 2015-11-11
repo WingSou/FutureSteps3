@@ -35,7 +35,7 @@ void Result::UpDate()
 		break;
 	case MAIN:
 
-		if (App::env->isPushKey(GLFW_KEY_SPACE)){
+		if (App::env->isPushKey(GLFW_KEY_ENTER)){
 			scene_switch = FADE_OUT;
 		}
 
