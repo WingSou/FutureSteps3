@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "Common.h"
+#include "../basicrelated/Common.h"
 
 class Character{
   public:

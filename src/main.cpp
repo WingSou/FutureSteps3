@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "lib/framework.hpp"
+#include "../src/scene/SceneManager.h"
 
 std::shared_ptr<AppEnv> App::env;
 

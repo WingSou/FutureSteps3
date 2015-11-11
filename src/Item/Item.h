@@ -1,5 +1,5 @@
 #pragma once
-#include "../Common.h"
+#include "../basicrelated/Common.h"
 
 // アイテムの名前をナンバリング
 enum ITEM {

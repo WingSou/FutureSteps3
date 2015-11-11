@@ -1,7 +1,5 @@
 #pragma once
-#include "../lib/framework.hpp"
-#include "../_Character.h"
-#include "../_Object.h"
+#include "../basicrelated/Common.h"
 
 class Attack {
 public:
