@@ -1,6 +1,5 @@
 ﻿#pragma once
 #include "lib/framework.hpp"
-#include "_Object.h"
 
 std::shared_ptr<AppEnv> App::env;
 
@@ -13,8 +12,6 @@ int main() {
 
 		App::env->begin();
 
-		obj.player.Draw();
-		obj.player.Move();
 
 
 		App::env->end();

@@ -1,6 +1,5 @@
 ﻿#pragma once
-#include <memory>
-#include "lib/appEnv.hpp"
+#include "Common.h"
 
 class App
 {
